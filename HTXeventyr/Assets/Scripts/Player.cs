@@ -3,7 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Variabler
-    public float Speed = 5;
+    public float Speed = 55;
 
     Rigidbody2D rb;
 
