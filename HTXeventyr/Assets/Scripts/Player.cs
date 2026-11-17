@@ -3,7 +3,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Variabler
-    public float Speed = 55;
+    public float Speed = 5;
+    public float hoppekraft = 1;
 
     Rigidbody2D rb;
 
@@ -28,7 +29,12 @@ public class Player : MonoBehaviour
             retning += new Vector2(1, 0);
         }
         rb.linearVelocity = retning * Speed;
+
     }
+    //jumping//
+
+    
+
 
 }
 
